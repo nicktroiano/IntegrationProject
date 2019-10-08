@@ -3,7 +3,7 @@
 
 totalCorrect = 0
 
-print("Welcome to my baseball trivia game!")
+print("Welcome to my baseball trivia game!!")
 
 x = input("Would you like to attempt baseball trivia?")
 if x == "yes" or x == "Yes":
