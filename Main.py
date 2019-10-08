@@ -1,16 +1,31 @@
 # Nick Troiano
 # A Baseball Trivia Game
 
+totalCorrect = 0
+
 print("Welcome to my baseball trivia game!")
 
-input("Would you like to play baseball trivia?")
-if input == "yes":
-    print("Good Luck")
-input("Who won the World Series in 2018?")
-if input == "Chicago Cubs" or "Cubs" or "chicago cubs" or "cubs":
+x = input("Would you like to attempt baseball trivia?")
+if x == "yes" or x == "Yes":
+    print("Good Luck!")
+elif x == "no" or x == "No":
+    exit(0)
+y = input("Who won the World Series in 2018?")
+if y == "Chicago Cubs" or y == "Cubs" or y == "chicago cubs" or y == "cubs" or y == "chicago" or y == "Chicago":
     print("Congratulations, next question.")
-else: "Better luck next time, try again."
-input("How many World Series have the New York Yankees won?")
-if input == "27":
-    print("Correct, here comes question 3.") + print(14+13)
+    totalCorrect += 1
+    y = input("How many World Series have the New York Yankees won?")
+    if y == "27":
+        print("Correct, here comes question 3.")
+        y = input ("Who owns the record for most career stolen bases?")
+        if y == "Ricky Henderson" or y == "ricky henderson":
+            print("Good job, next question")
+            y = print("Who was the first african american player in the MLB?")
+            if y == "Jackie Robinson" or y == "jackie robinson":
+                print("Amazing! Next question.")
+                y = input ("Who was the first baseball player to have his number retired?")
+                if y == "Lou Gehrig" or y == "lou gehrig":
+                    print("Congratulations, you made it to the end")
+
+
 
