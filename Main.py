@@ -26,6 +26,7 @@ if y == "Chicago Cubs" or y == "Cubs" or y == "chicago cubs" or y == "cubs" or y
                 y = input ("Who was the first baseball player to have his number retired?")
                 if y == "Lou Gehrig" or y == "lou gehrig":
                     print("Congratulations, you made it to the end")
+                    print("If you would like to play again, refresh the app.")
 
 
 
