@@ -1,7 +1,7 @@
 # Nick Troiano
 # A Baseball Trivia Game
 
-# Defining Score variables.
+# Defining Score variables
 x = 0
 score = x
 
